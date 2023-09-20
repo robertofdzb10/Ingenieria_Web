@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tercer documento HTML</title>
+    </head>
+    <body>
+        <h1>Reserva de sociedad</h1>
+        <p>Rellena el siguiente formulario para reservar la sociedad para un día en concreto</p>
+        <form action="server.php" method="post">
+            <fieldset>
+                <legend>Datos del usuario</legend>
+                Nombre <input type="text" name="user_name"><br><br>
+                ¿Eres socio?<br><br>
+                <input type="radio" name="partner" value="si">Si, soy socio 
+                <input type="radio" name="partner" value="no">No soy socio <br><br>
+                Email <input type="text" name="user_email"><br><br>
+                Contraseña <input type="password" name="contraseña">
+        </fieldset>
+        </form>
+    </body>
+</html>

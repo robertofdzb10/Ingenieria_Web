@@ -1,0 +1,64 @@
+<!-- Apuntes -->
+
+<!DOCTYPE html> 
+-- Para decir que es un archivo html
+
+<html lang="es"></html>
+ -- Etiquetas entre las que ha de ir el archivo html
+
+<head></head> 
+-- Cabecera, ahí van los metadatos y el título
+
+<meta charset="UTF-8">
+-- Selecionar UTF-8
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-- Definir la configuración de la vista del navegador en dispositivos móviles y en pantallas de diferentes tamaños
+
+<title></title>
+-- Título de la página web
+
+<body></body>
+-- El cuerpo del documento
+
+<h1></h1> 
+-- Encabezado principal, generalmente es el título
+
+<h2></h2>
+-- Subencabezados hasta h6
+
+<img src="logo.svg" alt="Logo" width="200">
+-- Insertar imagen, indicando en el src su dirección
+
+<ol></ol> y <ul></ul>
+-- Ambas son listas, ol es una lista ordenada y ul una lista no ordenada
+
+<li></li>
+-- Elementos de la lista
+
+<p></p>
+-- Párrafo
+
+<b></b> 
+-- Negrita
+
+<br>
+-- Salto de línea
+
+<a href="Enlace">Texto que se mostrará</a>
+-- Insertar enlaces
+
+<a href="#seccion1">¿Qué es HTML?</a>
+<h2 id="seccion1">¿Qué es HTML?</h2>
+-- Crear enlaces dentro del mismo documento
+
+<table>
+    <tr>
+        <th>Columnas</th>
+    </tr>
+    <tr>
+        <td>Elemento 1, fila 1</td>
+        <td>Elemento 2, fila 1</td>
+    </tr>
+</table>
+-- Creación de una tabla
