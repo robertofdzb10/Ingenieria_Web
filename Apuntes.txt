@@ -62,3 +62,7 @@
     </tr>
 </table>
 -- Creación de una tabla
+
+<form action="server.php" method="psot">
+</form>
+-- Etiqueta de formulario, action indica dónde se enviará la información y method cómo se enviará la información

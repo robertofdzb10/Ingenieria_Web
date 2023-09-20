@@ -11,13 +11,28 @@
         <form action="server.php" method="post">
             <fieldset>
                 <legend>Datos del usuario</legend>
-                Nombre <input type="text" name="user_name"><br><br>
+                <label for="user_name">Nombre </label><input type="text" name="user_name" required><br><br>
                 ¿Eres socio?<br><br>
-                <input type="radio" name="partner" value="si">Si, soy socio 
-                <input type="radio" name="partner" value="no">No soy socio <br><br>
-                Email <input type="text" name="user_email"><br><br>
-                Contraseña <input type="password" name="contraseña">
-        </fieldset>
+                <input type="radio" name="partner" required>Si, soy socio 
+                <input type="radio" name="partner" required>No soy socio <br><br>
+                <label for="user_email">Email </label><input type="email" name="user_email" required><br><br>
+                <label for="contraseña">Contraseña </label> <input type="password" name="contraseña" required>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de reservar</legend>
+                <label for="groups">Edad </label>
+                <select id="groups" name="groups">
+                        <option>Menor de 18</option>
+                        <option>Entre 18 y 65</option>
+                        <option>Mayor de 65</option>
+                </select><br><br>
+                <label for="fecha">Seleciona la fecha y hora de la reserva</label><br><br>
+                <input type="date" name="fecha" required>
+                <input type="time" name="hora" required><br><br>
+                <textarea name="textarea" rows="6" cols="22">Comentarios</textarea><br><br>    
+            </fieldset>
+            <br><input type="checkbox" name="condiciones" required><label for="condiciones">Acepto las condiciones</label><br><br><!--TODO-->
+            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>
