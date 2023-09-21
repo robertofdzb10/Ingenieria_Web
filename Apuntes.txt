@@ -66,3 +66,31 @@
 <form action="server.php" method="psot">
 </form>
 -- Etiqueta de formulario, action indica dónde se enviará la información y method cómo se enviará la información
+
+<fieldset></fieldset>
+-- Agrupa elementos que tengan un mismo propósito, es decir, delimitar secciones dentro del formulario
+
+<legend></legend>
+-- Etiqueta dentro de fieldset, permite añadir una descripción
+
+<input>
+
+<label for="id input">Texto</label>
+-- Asocia un texto con un input con la id especificada en el for,  al hacer click sobre el label es como si lo hiciésemos en el elemento a completar
+
+<select id="groups" name="groups">
+	<optgroup label="fruits">
+        <option selected></option>
+	</optgroup>
+	<optgroup label="vegetables">
+        <option selected></option>
+	</optgroup>
+</select>
+-- Menú desplegable, <option> cada opcion de la lista, aquella que tenga el atributo selected serál la que este
+seleccionada por defecto, sino hubiera ninguna selccionada se seleciona la primera por defecto. Optgroups permite agrupar las opciones en grupos.
+
+<textarea name="textarea" rows="6" cols="22">Texto por defecto</textarea>
+-- Representa un campo de texto de varias líneas, maxlength (opcional) número máximo de caracteres que el usuario puede insertar, minlength (opcional) número mínimo de caracteres que el usuario puede insertar, cols y rows ancho en columnas y alto en filas que ocupa el elemento 
+
+
+
