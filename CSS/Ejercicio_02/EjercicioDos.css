@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+a{
+    color: #1bb9c2;;
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6{
+    color: gray;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+    
+/* Estilo para las celdas del encabezado */
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Estilo para las celdas de datos */
+td {
+    border: 1px solid #ddd; /* Añadir bordes */
+    padding: 10px; /* Tamaño de la celda */
+}
+
+/* Estilo para las filas impares */
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
