@@ -45,40 +45,7 @@ form .username_password{ /* Así se ponen los subdivs */
     outline: none;
 }
 
-.username_password label{
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    color: #adadad;
-    transform: translateY(-50%); /* Desplazar el 50% de su altura, útil para centrar verticalmente un elemento dentro de su contenedor, independientemente de su altura, ya que se basa en un porcentaje de la altura del propio elemento. */
-    font-size: 16px;
-    pointer-events: none; /* Este elemento no responderá a ningún evento del ratón, como clics, desplazamientos, movimientos, entre otros. */
-    transition: .5s; /* TODO */
- }
-
-  /* TODO */
-.username_password span::before{
-    content: '';
-    position: absolute;
-    top: 40px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #6C3483; 
-    transition: .5s; 
-}
-
-.username_password input:focus ~ label,
-.username_password input:focus ~ label{
-    top: 5px;
-    color: #6C3483;
-}
-
-.username_password input:focus ~ span::before,
-.username_password input:focus ~ span::before{
-    width: 100px;
-}
-
+/* TODO */
 .recordar{
     margin: -5px 0 20px 5px;
     color: blue;
@@ -121,6 +88,5 @@ input[type="submit"]:hover{
 .registrarse a:hover{
     text-decoration: underline;
 }
-
 
 /* TODO */
