@@ -2,9 +2,16 @@ body{
     margin: 0;
     padding: 0;
     font-family: montserrat;
-    background: linear-gradient(120deg, #56B4D3, #9B59B6, #E74C3C); /*Fondo degradado lienal*/
     height: 100vh;
 } 
+
+.login_c{
+    background: linear-gradient(120deg, #56B4D3, #9B59B6, #E74C3C); /* Fondo degradado para la página de login */
+}
+
+.signUp_c{
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+}
 
 .formulario{
     position: absolute;
@@ -73,20 +80,36 @@ input[type="submit"]:hover{
     transition: .5s;
 }
 
-.registrarse{
+.signUp{
     margin: 30px;
     text-align: center;
     font-size: 16px;
     color: black
 }
 
-.registrarse a{
+.signUp a{
     color: blue;
     text-decoration: none;
 }
 
-.registrarse a:hover{
+.signUp a:hover{
     text-decoration: underline;
 }
 
 /* TODO */
+
+.login{ 
+    margin: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: black
+}
+
+.login a{
+    color: blue;
+    text-decoration: none;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
