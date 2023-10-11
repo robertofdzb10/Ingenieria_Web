@@ -186,7 +186,7 @@ main{
     border-bottom: 1px solid #e4e4e4;
 }
 
-.container-socail span{
+.container-social span{
     font-weight: 300;
     color: #252525;
 
@@ -204,7 +204,7 @@ main{
     font-size: 15px;
 }
 
-.container-buttons-social a:hover{
+.container-buttoms-social a:hover{
     color: #1bbeb4;
 }
 
